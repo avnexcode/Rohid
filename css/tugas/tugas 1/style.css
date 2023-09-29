@@ -1,0 +1,50 @@
+body {
+    /* background-image: url(../../html/src/markus-spiske-CBtiTnW_6Kk-unsplash.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center, bottom;
+    /* background-color: aqua; */
+    opacity: 90; 
+}
+
+.judul {
+    font-size: 30px;
+    font-family: 'Klavika';
+    color: rgb(2, 2, 202);
+    padding-left: 35px;
+    height: 20px;
+    width: 400px;
+}
+i {
+    margin-left: 0px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-radius: 100px ;
+    border-color: rgba(0, 0, 0, 0);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+}
+
+p {
+    font-family:'helvetica';
+    text-align: justify;
+    text-indent: 30px;
+    color:rgb(0, 0, 0);
+}
+
+ol {
+    font-family:'arial';
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+dl {
+    font-family: arial;
+    color: white;
+}

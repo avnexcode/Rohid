@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container1{
+    /* display: flex; */
+    justify-content: center;
+    /* border: 4px solid; */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* margin: 100px solid black; */
+    .box-1{
+        background-color: #B4B4B3;
+        /* border-color: black; */
+        /* border: 20px; */
+        justify-content: center;
+        display: flex;
+        gap: 100px;
+        padding: 20px;
+        .isi-box-1{
+            /* border: 1px solid black; */
+            width: 300px;
+            height: 20px;
+        }
+    }
+    
+    .box-batas{
+        background-color: #B4B4B3;
+        /* border: px solid; */
+        width: 100%;
+        height: 1vh;
+    }
+    .isi-batas{
+        /* background-color: black; */
+        width: 100%;
+        height: 3px;
+    }
+}
+
+.container2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* gap: 0.5%; */
+    width: 100%;
+    height: 45vh;
+    background-color: #B4B4B3;
+    border-bottom: 1px solid white;
+}
+.box-kiri{
+    width: 50%;
+    height: 98%;
+    background-color: white;
+    border: 1px solid #B4B4B3;
+    margin: 4px;
+    .box-kiri-1{
+        width: 94%;
+        height: 60%;
+        margin: 3%;
+        background-color: #B4B4B3;
+    }
+    .box-kiri-2{
+        width: 80%;
+        height: 25px;
+        margin: 1% 10%;
+        background-color: #B4B4B3;
+    }
+}
+
+.box-kanan {
+    width: 50%;
+    height: 98%;
+    background-color: white;
+    border: 1px solid #B4B4B3;
+    margin: 4px;
+    .kanan.atas {
+        justify-content: space-evenly;
+        display: flex;
+        /* gap: 2%; */
+        /* padding: 0% 10% 0% 0%; */
+        /* width: 100%; */
+        /* height: 62%; */
+        background-color: white;
+        .kotak1 {
+            margin: 8px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+            background-color: #B4B4B3;
+        }
+        .kotak2 {
+            margin: 4px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+            background-color: #B4B4B3;
+        }
+        .kotak3 {
+            margin: 4px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+            background-color: #B4B4B3;
+        }
+        .kotak4 {
+            margin: 4px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+            background-color: #B4B4B3;
+        }
+        .bunderan {
+            margin: 5px 0% 0px 0%;
+            width: 180px;
+            height: 180px;
+            background-color: #B4B4B3;
+            border-radius: 100%;
+        }
+}
+.kanan.bawah {
+    width: 100%;
+    height: 20%;
+    /* background-color: white; */
+    /* align-items: center;
+    justify-content: center; */
+    } 
+    .balok1 {
+        margin: 3% 8% 2% ;
+        width: 80%;
+        height: 30%;
+        background-color: #B4B4B3;
+    }
+    .balok2 {
+        margin: 0% 8% 3%;
+        width: 80%;
+        height: 30%;
+        background-color: #B4B4B3;
+    }
+.box.batas-2{
+    background-color: #B4B4B3;
+    border: 10px solid;
+    width: 100%;
+    height: 4px;
+    }
+    .batas-2{
+        background-color: white;
+        width: 100%;
+        height: 4px;
+    }
+}    
+.container3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* gap: 0.5%; */
+    width: 100%;
+    height: 43vh;
+    background-color: #B4B4B3;
+    /* border-bottom: 1px solid white; */
+    .balok.akhir{
+        width: 98%;
+        height: 95%;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 20px ; */
+        .tahu1{
+            width: 10%;
+            height: 80%;
+            background-color: #B4B4B3;
+        }
+        .tahu2{
+            width: 25%;
+            height: 46%;
+            background-color: #B4B4B3;
+        }
+        .tahu3{
+            width: 10%;
+            height: 80%;
+            background-color: #B4B4B3;
+
+        }
+        .tahu4{
+            width: 25%;
+            height: 46%;
+            background-color: #B4B4B3;
+        }
+    }
+}
